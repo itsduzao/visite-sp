@@ -144,7 +144,6 @@ body {
     padding: 0 12px;
     
     display: flex;
-    justify-content: flex-end;
     align-items: center;
     
     background: var(--primary-activities-bg-color);
