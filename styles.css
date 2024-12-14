@@ -35,7 +35,7 @@ body {
 }
 
 #hero-cover {         
-    background-image: url(/images/hero-cover.jpg);     
+    background-image: url(images/hero-cover.jpg);     
     
     height: 100%;
     
@@ -48,7 +48,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 
 .hero-title-wrapper {
     color: var(--primary-font-color);
