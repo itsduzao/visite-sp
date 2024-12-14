@@ -71,7 +71,9 @@ body {
 .activities {
     background: linear-gradient(var(--primary-activities-bg-color), var(--primary-font-color));
     
-    height: 530px;
+    height: auto;
+
+    padding-bottom: 40px;
     
     color: var(--secondary-font-color)
 }
@@ -141,14 +143,16 @@ body {
 
 .guide-wrapper {
     width: 400px;
-    height: 300px;
+    height: auto;
     
     border-radius: 10px;
     
-    padding: 0 12px;
+    padding: 20px 12px;
     
     display: flex;
     align-items: center;
+
+    gap: 10px;
     
     background: var(--primary-activities-bg-color);
     
@@ -186,8 +190,40 @@ body {
     line-height: calc((18 / 16) * 1rem);
 }
 
+/* Tablets e dispositivos menores */
 @media screen and (max-width: 768px) {
     body {
         font-size: 14px;
+        max-width: 100%;
+        padding: 0 15px;
+    }
+
+    .activities-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .activity-wrapper {
+        margin-bottom: 20px;
+    }
+
+    .hero {
+        height: 250px;
+    }
+
+    .hero-title-wrapper {
+        width: 90%;
+    }
+}
+
+/* Dispositivos móveis menores */
+@media screen and (max-width: 480px) {
+    .hero-title-wrapper {
+        padding: 10px;
+    }
+
+    .activities h3 {
+        padding-top: 20px;
+        padding-bottom: 30px;
     }
 }
