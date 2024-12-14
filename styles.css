@@ -107,6 +107,8 @@ body {
 
     object-fit: cover;
     object-position: center;
+
+    border: 6px solid var(--secondary-font-color);
     
     border-radius: 50%;
     
