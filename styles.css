@@ -71,7 +71,7 @@ body {
 .activities {
     background: linear-gradient(var(--primary-activities-bg-color), var(--primary-font-color));
     
-    height: 420px;
+    height: 530px;
     
     color: var(--secondary-font-color)
 }
@@ -102,8 +102,11 @@ body {
 }
 
 .activity-wrapper img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
+
+    object-fit: cover;
+    object-position: center;
     
     border-radius: 50%;
     
