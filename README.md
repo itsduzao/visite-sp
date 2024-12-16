@@ -2,6 +2,7 @@
 
 ## 📝 Descrição do Projeto
 
+Landing page criada como parte do projeto solo - hometown homepage, do The Frontend Developer Career Path do Scrimba. 
 Um website responsivo que apresenta opções gratuitas de lazer em São Paulo, focando em atrações culturais e turísticas para famílias e viajantes.
 
 ## 🚀 Recursos
